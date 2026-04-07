@@ -1,0 +1,52 @@
+﻿<mxfile host="app.diagrams.net" modified="2026-04-02T11:29:22.729Z" agent="Copilot" version="24.7.17" type="device">
+  <diagram name="F2-1" id="730c1d1c-ecbe-4e06-8c4a-152ee1283c64">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n1" value="Browser Client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="Vue Frontend" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="120" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="Spring Boot Backend" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="240" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="Python AI Service" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="910" y="120" width="210" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n5" value="MySQL" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="280" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6" value="MinIO" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="790" y="280" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n7" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="990" y="280" width="150" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="HTTPS" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="REST JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="AI call" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n3" target="n5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="files" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n3" target="n6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="cache" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n3" target="n7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="caption" value="图 2-1 系统 B/S 架构与前后端分离示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1030" width="1200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,73 @@
+﻿<mxfile host="app.diagrams.net" modified="2026-04-02T11:29:22.762Z" agent="Copilot" version="24.7.17" type="device">
+  <diagram name="T3-2" id="82a6124f-2322-4b73-bb7a-20fa64b4c419">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="h1" value="Module" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h2" value="Feature" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="420" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h3" value="Input" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="120" width="250" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h4" value="Output" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="120" width="250" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="h5" value="Priority" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="120" width="140" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1c1" value="Statistics" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="170" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1c2" value="overview trend distribution" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="420" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1c3" value="status date range" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="170" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1c4" value="dashboard charts" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="170" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r1c5" value="High" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="170" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2c1" value="Result mgmt" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2c2" value="search detail trace" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="420" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2c3" value="doc type keyword" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="240" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2c4" value="structured view" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="240" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r2c5" value="High" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="240" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3c1" value="Export" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="200" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3c2" value="files audits reports" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="310" width="420" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3c3" value="filters format" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="310" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3c4" value="excel reports" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="950" y="310" width="250" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="r3c5" value="Medium" style="shape=rectangle;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="310" width="140" height="70" as="geometry"/>
+        </mxCell>
+        <mxCell id="caption" value="表 3-2 数据统计与结果管理功能需求说明表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="830" width="1200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,94 @@
+﻿<mxfile host="app.diagrams.net" modified="2026-04-02T11:29:22.756Z" agent="Copilot" version="24.7.17" type="device">
+  <diagram name="F3-1" id="bedf3052-0ce1-4cdd-9367-0325a5ca82d6">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n1" value="System User" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="80" y="220" width="130" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="SUPER_ADMIN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="ADMIN" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="140" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="OPERATOR" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n5" value="AUDITOR" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6" value="USER" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="350" width="180" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n7" value="User/Role Mgmt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n8" value="Template Mgmt" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n9" value="Upload/Process" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="210" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n10" value="Review Workbench" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="280" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n11" value="Audit Approval" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="n12" value="Dashboard Export" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="420" width="200" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e6" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e7" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e8" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e9" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e10" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e11" value="all" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n12">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e12" value="do" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n4" target="n9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e13" value="do" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n4" target="n10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e14" value="approve" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n5" target="n11">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e15" value="upload" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n6" target="n9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="caption" value="图 3-1 系统用户角色与权限关系图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1030" width="1200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

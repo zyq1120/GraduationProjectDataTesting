@@ -1,0 +1,46 @@
+﻿<mxfile host="app.diagrams.net" modified="2026-04-02T11:29:22.754Z" agent="Copilot" version="24.7.17" type="device">
+  <diagram name="F2-2" id="dd4c00f1-37a1-40f1-98dc-18a6bf343128">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="n1" value="Input image/PDF" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="180" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n2" value="Preprocess" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n3" value="OCR detect+recognize" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="190" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n4" value="Layout/table rebuild" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="800" y="180" width="180" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n5" value="Confidence check" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="180" width="170" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="n6" value="Structured OCR result" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="180" width="200" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n1" target="n2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n2" target="n3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n3" target="n4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n4" target="n5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;endArrow=block;endFill=0;" edge="1" parent="1" source="n5" target="n6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="caption" value="图 2-2 OCR 基本处理流程示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1030" width="1200" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
